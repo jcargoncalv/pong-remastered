@@ -1,0 +1,141 @@
+# 🏓 Pong Remastered
+
+A modern implementation of the classic Pong game built using Python and Pygame, main for educational purposes. 
+Focusing on clean architecture, game loop fundamentals, and extensibility.
+
+---
+
+## 🚀 Overview
+
+This project recreates the classic Pong experience while serving as a practical exploration of:
+
+* Real-time game loops
+* Object-oriented design for game entities
+* Collision detection and response
+* Basic AI behavior (optional auto-paddle)
+* Frame-rate independent movement
+
+---
+
+## 🎮 Features
+
+* Player vs Player mode
+* Optional AI-controlled paddle
+* Smooth ball physics and collision handling
+* Score tracking system
+* Configurable game parameters (speed, paddle size, etc.)
+
+---
+
+## 🧠 Technical Highlights
+
+* **Game Loop Architecture**
+  Structured update → render cycle with delta time support.
+
+* **Entity Abstraction**
+  Core objects like `Ball` and `Paddle` inherit from a base `GameObject`.
+
+* **Collision System**
+  Axis-Aligned Bounding Box (AABB) collision detection with directional response.
+
+* **Auto Paddle (Optional)**
+  Simple tracking behavior based on ball position, with room for human-like error modeling.
+
+---
+
+## 📁 Project Structure
+
+```
+pong-remastered/
+│
+├── classes/
+│   ├── game_object.py
+│   ├── paddle.py
+│   ├── auto_paddle.py
+│   └── ball.py
+├── main.py
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/your-username/pong-pygame.git
+cd pong-pygame
+```
+
+### 2. Create a virtual environment (recommended)
+
+```
+python -m venv .venv
+source .venv/bin/activate  # Linux / Mac
+```
+
+### 3. Install dependencies
+
+```
+pip install pygame
+```
+
+---
+
+## ▶️ Running the Game
+
+```
+python main.py
+```
+
+---
+
+## 🎯 Controls
+
+| Action            | Key |
+| ----------------- | --- |
+| Left Paddle Up    | W   |
+| Left Paddle Down  | S   |
+| Right Paddle Up   | ↑   |
+| Right Paddle Down | ↓   |
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots or GIFs here to showcase gameplay)*
+
+---
+
+## 🔧 Future Improvements
+
+* Add sound effects and music
+* Implement menus (start/pause/game over)
+* Improve AI with prediction and error modeling
+* Add spin/angle mechanics for richer gameplay
+* Package as a standalone executable
+
+---
+
+## 📚 Learning Goals
+
+This project is part of a broader effort to create educational material and deepen understanding of:
+
+* Game development fundamentals
+* Python for real-time systems
+* Clean, modular code design
+
+---
+
+## 📄 License
+
+This project is open-source and available under the GPL-3 License.
+
+---
+
+## 👤 Author
+
+João Carlos de A. R. Gonçalves (jcgoncalv)
+
+---
