@@ -1,6 +1,6 @@
 # 🏓 Pong Remastered
 
-A modern implementation of the classic Pong game built with Python and Pygame, designed as a focused exploration of game development fundamentals and clean software architecture.
+A modern implementation of the classic Pong game built with Python and Pygame-ce, designed as a focused exploration of game development fundamentals and clean software architecture.
 
 ---
 
@@ -80,7 +80,7 @@ source .venv/bin/activate  # Linux / Mac
 ### 3. Install dependencies
 
 ```bash
-pip install pygame
+pip install pygame-ce
 ```
 
 ---
